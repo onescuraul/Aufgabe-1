@@ -1,0 +1,15 @@
+stimmung = "Gut"
+
+if stimmung == "Super":
+    print("Das freut mich sehr!!")
+
+elif stimmung == "Schlecht":
+    print(":(")
+elif stimmung == "Geht so":
+    print("Hmm..")
+elif stimmung == "Gut":
+    print(":)")
+else:
+    print("Hmm, schade!")
+
+    print("ende")
