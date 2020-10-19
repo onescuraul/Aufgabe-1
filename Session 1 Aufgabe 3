@@ -1,0 +1,15 @@
+x = int(input("Gib die erste Zahl ein: "))
+operation = input("Gib eine Rechenart ein: ")
+y = int(input("Gib die zweite Zahl ein: "))
+
+
+if operation == "+":
+    print(x + y)
+elif operation == "-":
+    print(x - y)
+elif operation == "*":
+    print(x * y)
+elif operation == "/":
+    print(x / y)
+else:
+    print("Falsche Eingabe")
