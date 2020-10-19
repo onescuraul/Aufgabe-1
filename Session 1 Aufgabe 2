@@ -1,0 +1,7 @@
+Geheimzahl = 7
+
+Rate = int(input("Errate die geheime Zahl zwischen Null und Zehn:"))
+if Geheimzahl == Rate:
+    print("Richtig")
+else:
+    print("Falsch")
